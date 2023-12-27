@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="66.035" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="To Verify Luma Webpage" name="To Validate The Luma Signin Page - Example #1.1" time="8.563">
+<system-out><![CDATA[
+Given User Should Put "Chrome" and "https://magento.softwaretestingboard.com/".passed
+When User Should Click SignIn button........................................passed
+And User Should Enter "Sudhagar12200341@gmail.com" and "Asudha1785".........passed
+And User Should Click the Login button......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify Luma Webpage" name="To Validate The Product - Example #1.1" time="11.078">
+<system-out><![CDATA[
+When User Should Search The Product "HOODIE"................................passed
+And User Should Click The Product...........................................passed
+And User Should Click The AddToCart button..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify Luma Webpage" name="To Validate The Shipment Details - Example #1.1" time="26.055">
+<system-out><![CDATA[
+When User Should Click The ShoppingCart button..............................passed
+And User Should Click The Checkout button...................................passed
+And User Should Click The New Address.......................................passed
+And User Should Enter The "Sudhagar", "Sudha", "SudhagarTech","No.320MettuStreet", "Velachery", "TamilNadu", "Chennai", "Alaska", "12345-6789", "UnitedStates", "9876543210".passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify Luma Webpage" name="To Validate The Order Details - Example #1.1" time="20.079">
+<system-out><![CDATA[
+When User Should Proceed The Order..........................................passed
+Then User Should Verify The Order...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
